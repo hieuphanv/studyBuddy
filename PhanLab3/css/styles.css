@@ -1,0 +1,146 @@
+#title { 
+    background-color: #a0cfe9;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    color:rgb(255, 255, 255);
+}
+h1:hover{
+    color:#0c2990;
+}
+h2{
+    color: #ffff;
+    font-family: "Montserrat";
+    font-size: 1.5;
+    font-weight: bold;
+}
+.carousel-text:hover{
+    color: #0c2990;
+}
+h3 {
+    font-family:"Montserrat";
+    font-weight: bold;
+}
+em{
+    color:rgb(234, 238, 244);
+}
+p{
+    color: #8f8f8f;
+}
+.nav{
+    position: fixed;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family:"Ubuntu";
+    font-weight: bold;
+    font-size: 2.0rem;
+}
+.navbar-item{
+    padding: 0 18px;
+}
+.navbar-link{
+    font-family:"Montserrat", sans-serif;
+    font-size:1.2rem;
+}
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 60%;
+    transform: rotate(20deg);
+    position:absolute;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#features{
+    padding:7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align:center;
+    padding: 5%;
+}
+.icon{
+    width: 120px;
+    color:#0c2990;
+   margin-bottom: 1rem;
+}
+.icon:hover{
+    color:#ffc5d2;
+}
+#testimonials{
+text-align:center;
+background-color:#a0cfe9
+}
+.testimonial-image {
+    width: 40%;
+    border-radius: 50%;
+    margin: 10px;
+}
+#press {
+    background-color: #a0cfe9;
+    text-align: center;
+}
+.press-logo{
+    width:10%;
+    margin:20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#pricing {
+    padding:100px;
+    text-align: center;
+}
+.pricing-header{
+    color:#000
+}
+.pricing-column{
+    padding:3% 2%;
+}
+
+
+
+#cta{
+    background-color:#a0cfe9;
+    color: white;
+    padding: 7% 15%;
+    text-align:center;
+}
+.cta-heading{
+    font-family: "Montserrat"
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#footer{
+    padding: 7% 15%;
+    text-align:center;
+}
+.social-icon{
+    margin:20px 10px;
+}
+
+@media (maz-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
